@@ -8,6 +8,8 @@ import com.example.examen.entity.Curso;
 public interface CursoService {
 
 	public abstract List<Curso> listaCurso();
-	
+	public abstract Curso listaPorId(int id);
+	public abstract Curso findByIdCurso(int idCurso);
+	public abstract List<Curso> listaCursoPorNombre(String nombre);
 	
 }
